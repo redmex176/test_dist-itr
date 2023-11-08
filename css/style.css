@@ -1,0 +1,148 @@
+li { 
+    list-style-type: none;
+}
+
+* {
+  font-family: "Blogger Sans"; 
+  margin: 0;
+  padding: 0;
+}
+
+
+
+@font-face {
+    font-family: "Blogger Sans"; 
+    src: url("../fonts/blogger-sans/Blogger_Sans-Medium.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+} 
+
+.header {
+  position: absolute;
+    width: 1440px;
+    height: 750px;
+    background-image: url('../img/header_bgc.jpg');
+}
+
+.header__nav {
+  position: absolute;
+  margin-top: 46px;
+  margin-left: 60px;
+}
+
+.nav__wrapp{
+
+    display: flex;
+    width: 1320px;
+    height: 53px;
+    align-items: center;
+  
+}
+
+.nav__img{
+   width: 200px;
+   height: 50px;
+}
+
+
+
+.nav__list{
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 390px;
+  justify-content: space-between;
+  height: 20px;
+}
+
+.list__item a {
+    color: white;
+    text-decoration: none;  
+}
+
+.nav__btn {
+    box-sizing: border-box;
+    display: flex;
+    margin-left: auto;
+    
+}
+
+.btn__phone {
+    background-image: url('../img/icon_phone_btn.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+
+}
+
+.btn__mail {
+    background-image: url('../img/icon_mail_btn.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn__auth {
+    background-size: cover;
+    width: 188px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FFD74B;
+    font-size: 20px;
+}
+
+.header__title {
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+    margin-top: 110px;
+    margin-left: 127px;
+}
+
+.header__title .title {
+    width: 418px;
+    height: 210px;
+    font-size: 40px;
+    font-weight: 700px;
+    margin-top: 99px;
+}
+
+.discr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 264px;
+    height: 183px;
+    margin-top: 99px;
+}
+
+.discr__text {
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.discr__auth {
+    font-style: normal;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 33px;
+
+}
+.title__img {
+    width: 431px;
+    height: 640px; 
+}
+
+
+.features__wrapp{ 
+  display: flex;
+    width: 1324px;
+    height: 107px;
+}
