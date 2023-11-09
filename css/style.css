@@ -1,92 +1,185 @@
-li { 
-    list-style-type: none;
+/* Обнуление */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+/* Обнуление */
 
-* {
+body {
   font-family: "Blogger Sans"; 
-  margin: 0;
-  padding: 0;
 }
-
-
 
 @font-face {
-    font-family: "Blogger Sans"; 
+    font-family: "Blogger Sans medium"; 
     src: url("../fonts/blogger-sans/Blogger_Sans-Medium.otf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+  
+} @font-face {
+    font-family: "Blogger Sans light"; 
+    src: url("../fonts/blogger-sans/Blogger_Sans-Light.otf") format("truetype");
+} @font-face {
+    font-family: "Blogger Sans"; 
+    src: url("../fonts/blogger-sans/Blogger_Sans.otf") format("truetype");
+} @font-face {
+    font-family: "Blogger Sans bold"; 
+    src: url("../fonts/blogger-sans/Blogger_Sans-Bold.otf") format("truetype");
+
 } 
 
+.wrapp {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+[class*="__container"] {
+    max-width: 1320px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+.header__menu-icon {
+    display: none;
+}
+@media (max-width: 1000px) {
+    [class*="__container"] {
+        max-width: 768px;
+        margin: 0px auto;
+        
+       
+    }
+
+    .header__menu-icon {
+        display: block;
+    }
+
+    .header__menu {
+        display: none;
+    }
+    .btn__mail {
+        display: none;
+    }
+    .btn__phone{
+        display: none;
+    }
+    .header__rect {
+        display: none;
+    }
+
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__menu-icon {  
+        margin-left: 20%;  
+    }
+
+}
+
 .header {
-  position: absolute;
-    width: 1440px;
-    height: 750px;
-    background-image: url('../img/header_bgc.jpg');
+    margin-top: 46px;
 }
 
-.header__nav {
-  position: absolute;
-  margin-top: 46px;
-  margin-left: 60px;
+.bgc__header {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background-image: url("..//img/header_bgc.jpg");
+    background-repeat: no-repeat;
 }
 
-.nav__wrapp{
-
+.header__container {
     display: flex;
-    width: 1320px;
-    height: 53px;
     align-items: center;
-  
+}
+.header__rect {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header__rect-item {
+    width: 60px;
+    height: 2px;
+    background-color: white;
+    align-items: center;
+    margin: 0 auto;
 }
 
-.nav__img{
-   width: 200px;
-   height: 50px;
-}
-
-
-
-.nav__list{
-  font-size: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 390px;
-  justify-content: space-between;
-  height: 20px;
-}
-
-.list__item a {
-    color: white;
-    text-decoration: none;  
-}
-
-.nav__btn {
-    box-sizing: border-box;
+.menu__list {
     display: flex;
-    margin-left: auto;
-    
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 390px;
+    height: 20px;
+}
+
+.menu__link {
+    color: #FFF;
+    font-family: Blogger Sans medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+    text-transform: uppercase;
+}
+
+.header__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .btn__phone {
-    background-image: url('../img/icon_phone_btn.png');
-    background-size: cover;
+    background-image: url("..//img/icon_phone_btn.png");
+    border-radius: 50%;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    border: none;
-
+    background-size: cover;
 }
 
 .btn__mail {
-    background-image: url('../img/icon_mail_btn.png');
-    background-size: cover;
+    background-image: url("..//img/icon_mail_btn.png");
+    border-radius: 50%;
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    border: none;
+    background-size: cover;
 }
 
-.btn__auth {
+.btn__auth{
     background-size: cover;
     width: 188px;
     height: 50px;
@@ -94,55 +187,59 @@ li {
     border: none;
     background-color: #FFD74B;
     font-size: 20px;
+    font-family: Blogger Sans medium;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
-.header__title {
-    width: 1230px;
+.main__descr {
+    max-width: 1230px;
     display: flex;
-    justify-content: space-between;
-    color:#fff;
-    margin-top: 110px;
-    margin-left: 127px;
+    justify-content: center;
+    margin: 0px auto;
 }
 
-.header__title .title {
-    width: 418px;
-    height: 210px;
-    font-size: 40px;
-    font-weight: 700px;
-    margin-top: 99px;
+.discr__title {
+    margin-top: 109px;
 }
 
-.discr {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 264px;
-    height: 183px;
-    margin-top: 99px;
+.discr__wrapp {
+    margin-top: 122px;
+    margin-left: 58px;
+}
+.discr__img {
+    margin-top: 11px;
+    margin-left: 59px;
 }
 
 .discr__text {
-    font-style: normal;
-    font-size: 28px;
-    font-weight: 300;
-    margin-bottom: 25px;
+    margin-top: 45px;
 }
-.discr__auth {
+.discr__title p {
+    width: 418px;
+    height: 210px;
+    color: #FFF;
+    font-family: Blogger Sans;
+    font-size: 60px;
     font-style: normal;
-    font-size: 21px;
     font-weight: 700;
-    line-height: 33px;
-
-}
-.title__img {
-    width: 431px;
-    height: 640px; 
+    line-height: 70px; /* 116.667% */
 }
 
-
-.features__wrapp{ 
-  display: flex;
-    width: 1324px;
-    height: 107px;
+.discr__auth p {
+    color: #FFF;
+    font-family: Blogger Sans light;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 114.286% */
 }
+
+.discr__text p {
+    color: #FFF;
+    font-family: Blogger Sans medium;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 114.286% */
+} 
