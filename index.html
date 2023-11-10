@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <div class="wrapp">
         <header class="header">
             <div class="bgc__header"></div>
+            <div class="header__tablet"></div>
             <div class="header__container">
                 <a href="" class="header__logo">
                     <img src="img/logo_full.svg" alt="погнали">
@@ -18,7 +20,7 @@
                     <div class="header__rect-item"></div>
                 </div>
                 <div class="header__menu-icon">
-                    <a href="#"> <img src="./img/Tablet/Menu-icon_tablet.svg" alt=""></a>
+                    <a href="#"><img src="./img/Tablet/Menu-icon_tablet.svg" alt=""></a>
                 </div>
                 <nav class="header__menu">
                     <ul class="menu__list">
@@ -33,13 +35,12 @@
                     <button class="btn__auth">Авторизация</button>
                 </div>
             </div>
-            <div class="main__descr">
+            <div class="main__descr main__descr-desk">
                 <div class="discr__title">
                     <p>В путешествие <br> с крутыми попутчиками!</p>
                 </div>
                 <div class="discr__img">
-                    <img src="./img/traveller-illustration-desktop 1.svg" alt="">
-                </div>
+                    <img class="img__desk" src="./img/traveller-illustration-desktop 1.svg" alt="">                </div>
                 <div class="discr__wrapp">
                     <div class="discr__auth">
                         <p>«Лучшее приложение, <br> что я видел в жизни!»</p>
@@ -53,10 +54,102 @@
                     </div>
                 </div>
             </div>
+            <div class="main__descr main__descr-tablet none">
+                <div class="discr__title-tablet">
+                    <p>В путешествие <br> с крутыми попутчиками!</p>
+                </div>
+            </div>
+            <div class="discr__wrapp-tablet none">
+                <div class="discr__auth-tablet">
+                    <p>«Лучшее приложение, <br> что я видел в жизни!»</p>
+                </div>
+                <div class="discr__text-tablet none">
+                    <p>
+                        Мурат Эльтазин <br>
+                        главный редактор газеты 
+                        «гаджетлайф»
+                    </p>
+                </div>
+            </div>
             
+            <div class="discr__img-tablet">
+                <img class="img__tablet" src="./img/Tablet/traveller-illustration-tablet 1.svg" alt="">
+            </div>
+            <div class="bgc__header-tablet"></div>
+
+            <div class="header__inst">
+                <div class="inst__item">
+                    <p class="item__text-one">Выберите направление</p>
+                    <p>1</p>
+                </div>
+                <div class="inst__item">
+                    <p class="item__text-two">Изучите идеи путешественников</p>
+                    <p>2</p>
+                </div>
+                <div class="inst__item">
+                    <p class="item__text-free" >Находите тех, <br> кто похож на вас</p>
+                    <p>3</p>
+                </div>
+                <div class="inst__item">
+                    <p class="item__text-four">Путешествуйте <br>вместе</p>
+                    <p>4</p>
+                </div>
+            </div>
+        
         </header>
 
         <main class="main">
+            <div class="about__bgc">
+            </div>
+            <div class="about">
+                <div class="about__wrapp">
+                    <div class="about__title"><p>О сервисе</p></div>
+                    <div class="about__discr">
+                        <p>Любое путешествие веселее с попутчиками, которые 
+                            на одной волне с тобой! Делитесь своими идеями
+                            путешествий и черпайте вдохновение в чужих. 
+                            </p>
+                    </div>
+                    <div class="about__text">
+                        <p>А если найдете кого-то близкого по духу — <br>
+                            скорее зовите в совместный трип!</p>
+                    </div>
+                    <div class="about__button button">
+                        <button class="abount__button-text">
+                            <p>Подробнее</p>
+                        </button>
+                    </div>
+                </div> 
+                <div class="about__img">
+                    <img src="./img/img_back.png" alt="">
+                </div>
+            </div>
+            <div class="direction__wrapp">
+                <div class="direction__img"></div>
+                <div class="direction__contaner">
+                    <div class="direction__coutry">
+                        <div class="coutry__item-one"></div>
+                        <div class="coutry__item-two"></div>
+                        <div class="coutry__item-free"></div>
+                    </div>
+                    <div class="direction__title">
+                        <div class="title__item-one">
+                            <p>Направления</p>
+                        </div>
+                        <div class="title__item-two">
+                            <p>
+                                Мы не продаем туры
+                                и ничего не рекламируем. 
+                                Люди сами пишут о странах, 
+                                куда хотели бы отправиться
+                                и чем можно там заняться.
+                            </p>
+                        </div>
+                        <div class="title__item-free"></div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
         </main>
 
         <footer class="footer">
