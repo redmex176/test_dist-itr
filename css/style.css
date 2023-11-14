@@ -70,6 +70,9 @@ body {
     margin: 0px auto;
     padding: 0px 15px;
 }
+.direction__contaner-tablet {
+    display: none;
+}
 .header__menu-icon {
     display: none;
 }
@@ -79,12 +82,19 @@ body {
 .bgc__header-tablet {
     display: none;
 }
+.header__disc-tablet {
+    display: none;
+}
 .header {
     height: 729px;
     margin-top: 46px;
-
 }
-
+.traveler__tablet, .travelers__title-tablet {
+    display: none;
+}
+.direction__button-tablet {
+    display: none;
+}
 .bgc__header {
     z-index: -1;
     width: 1440px;
@@ -102,6 +112,10 @@ body {
 .header__rect {
     margin-left: 20px;
     margin-right: 20px;
+}
+.header__logo {
+    width: 200px;
+    height: 53px;
 }
 .header__rect-item {
     width: 60px;
@@ -241,7 +255,6 @@ body {
     display: none;
 }
 
-
 .header__inst {
     display: flex;
     position: relative;
@@ -326,7 +339,15 @@ body {
     width: 162px;
     height: 48px;
 }
-
+.diraction__tablet {
+    display: none;
+}
+.img__tablet-tablet {
+    display: none;
+}
+.header__inst-tablet {
+    display: none;
+}
 .about__bgc {
     z-index: -4;
     width: 1440px;

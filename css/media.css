@@ -1,10 +1,9 @@
 @media (max-width: 1430px) {
     [class*="__container"] {
-        width: 758px;  
+        width: 768px;  
         margin: 0px auto;
     }
     .wrapp {
-
         min-height: 100%;
         margin: 0 auto;
       
@@ -25,6 +24,9 @@
     .header__rect {
         display: none;
     }
+    .header {
+        height: 1200px;
+    }
 
     .header__container {
         display: flex;
@@ -42,10 +44,15 @@
     .img__desk {
         display: none;
     }
+    .img__tablet-tablet {
+        display: block;
+    }
     .img__tablet {
         display: block ;
     }
-
+    .img__about-desk {
+        display: none;
+    }
     .main__descr-tablet {
         display: flex;
     }
@@ -62,7 +69,8 @@
         z-index: -2;
         width: 100%;
         top: 0;
-        height: 382px;
+        height: 2000px;
+        border-radius: 0px 0px 50px 50px;
         background-color: #182044;
     }
 
@@ -128,9 +136,325 @@
 
     .header__inst { 
         display: none;
-
-        width: 667px;
-        height: 280px;
     }
     
+    .header__disc-tablet {
+        position: relative;
+        display: block;
+        width: 500px;
+        height: 186px;
+        margin: 0 auto;
+        margin-top: 86px;
+    }
+
+    .header__disc-tablet::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 372px;
+        height: 451px;
+        top: -50px;
+        left: 130px;
+        background-image: url("..//img/Tablet/traveller-illustration-tablet\ 1.svg");
+    }
+    .discr__text-tablet {
+        width: 300px;
+        height: 60px;
+    } 
+    .discr__text-tablet p{
+        width: 260px;
+        color: #FFF;
+        font-family: Blogger Sans light;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 33px; /* 117.857% */
+    }   
+
+    .discr__auth-tablet p{
+        color: #FFF;
+        font-family: Blogger Sans medium;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; /* 119.048% */
+    }
+    .discr__auth-tablet{
+        margin-top: 55px
+    }
+    .header__inst-tablet {
+        display: block;
+    }
+    .header__inst-tablet {
+        position: relative;
+        width: 768px;
+        margin: 0 auto;
+        margin-top: 215px;
+        height: 280px;
+    }
+    .header__inst-tablet::after {
+        z-index: -1;
+        content: "";
+        display: block;
+        position: absolute;
+        width: 765px;
+        height: 612px;
+        top: -503px;
+        left: 0px;
+        background-image: url("..//img/Tablet/globe\ back\ tablet.jpg.jpg");
+        
+    }
+    .inst__wrapp {
+        display: flex;
+        height: 140px;
+        width: 768px;
+    }
+    
+    .inst__tablet-item:nth-child(1) {
+        border-top-left-radius: 20px;
+        width: 415px;
+        height: 140px;
+        background-color: #FF8D30;
+        position: absolute;
+    }
+    .inst__tablet-item:nth-child(2) {
+        border-radius: 20px 20px 0px 0px; 
+        width: 385px;
+        height: 140px;
+        margin-left: 380px;
+        position: absolute;
+        background-color: #FFA530;
+    }
+   
+    .inst__tablet-item-two:nth-child(1) {
+        border-radius: 0px 0px 0px 20px;
+        width: 415px;
+        height: 140px;
+        background-color: #FFBD30;
+        position: absolute;
+    }
+    .inst__tablet-item-two:nth-child(2) {
+        border-radius: 0px 0px 20px 20px; 
+        width: 385px;
+        height: 140px;
+        margin-left: 380px;
+        position: absolute;
+        background-color: #FFD74B;
+    }
+
+    .inst__tablet-item, .inst__tablet-item-two {
+        padding: 31px 0px 61px 32px; 
+
+    }
+    .inst__tablet-item p, .inst__tablet-item-two p {
+        width: 211px;
+        color: var(--basic_blue, #161C35);
+        font-family: Blogger Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 100% */
+    }
+    .inst__tablet-item p:nth-child(2), .inst__tablet-item-two p:nth-child(2) {
+        color: #FFF;
+        margin-top: 9px;
+        font-family: Blogger Sans;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 100% */
+    }
+    .main {
+        width: auto;
+        margin: 0 auto;
+    }
+   .about__bgc {
+    display: none;
+   }
+    .about__wrapp-tablet {
+        margin-top: 56px;
+        position: relative;
+        width: 308px;
+    }
+    .about__title {
+        width: 197px;
+    }
+    .about__title p {
+        color: var(--special_orange, #FF8D30);
+        font-family: Blogger Sans;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 45px; /* 100% */
+    }
+    .about__discr{
+        width: 308px;
+        height: 231px;
+        margin-top: 20px;
+        position: relative;
+    }
+    .about__discr::after {
+        z-index: -1;
+        content: "";
+        display: block;
+        position: absolute;
+        width: 766px;
+        height: 212px;
+        top: -125px;
+        left: -40px;
+        border-radius: 20px;
+        background-color: #141B3B;
+    }
+    .about__text{ 
+        width: 265px;
+        height: 75px;
+    }
+  
+    .about__img img {
+        margin-top: 95px;
+        background-repeat: no-repeat;
+    }
+
+
+.direction__img {
+    display: none;
+}
+.direction__title {
+    margin: 0 auto;
+    width: 688px;
+
+}
+.direction__title-wrapp  {
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+}
+.direction__wrapp {
+    position: relative;
+    width: 100%;
+    height: 1200px;
+}
+
+.diraction__tablet {
+    display: block;
+    position: absolute;
+    z-index: -3;
+    width: 100%;
+    height: 1200px;
+    border-radius: 0px 0px 50px 50px;
+    background-color: #EDEFF6;
+}
+.direction__contaner {
+    display: none;
+}
+.direction__contaner-tablet {
+    display: block;
+}
+
+.title__item-one{
+    color: var(--special_orange, #FF8D30);
+    font-family: Blogger Sans bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; /* 100% */
+}
+.direction__coutry {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 440px;
+    max-width: 688px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.country__geo {
+    position: absolute;
+    margin: 23px 181px 22px 465px;
+}
+
+.coutry__item-free::after {
+    content: "";
+    width: 688px;
+    height: 140px;
+    position: absolute;
+    background: linear-gradient(2deg, #EAECF2 -0.27%, rgba(234, 236, 242, 0.00) 85.67%);
+}
+.direction__button-tablet {
+    display: none;
+}
+.direction__coutry::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 141px;
+    height: 141px;
+    border-radius: 20px;
+    top: -40px;
+    left: -40px;
+
+}
+
+
+
+.direction__button-tablet {
+    position: relative;
+    display: block;
+    width: 688px;
+    margin: 0 auto;
+    margin-top: 46px;
+}
+
+.button-tablet p::after {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 13.413px;
+    left: 640px;
+    top: 35px;
+    background-image: url(..//img/Desktop/Polygon\ 1.svg);
+    background-repeat: no-repeat;
+}
+
+.button-tablet {
+    width: 688px;
+}
+.button-tablet p{
+    font-family: Blogger Sans bold;
+    margin-left: -475px;
+}
+.travelers__img {
+    display: none;
+}
+.traveler__tablet {
+    display: block;
+    position: absolute;
+    z-index: -4;
+    width: 100%;
+    top: -50px;
+    height: 1000px;
+    border-radius: 0px 0px 50px 50px;
+    background-color: #192144;
+}
+.travelers__wrapp {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+.travelers__wrapper {
+    display: none;
+}
+.travelers__title-tablet{
+    display: block;
+}
+.travalers__wrapp-tablet {
+    padding-top: 131px;
+}
+.travelers__title {
+    margin: 0 auto;
+    width: 688px;
+}
+
 }
