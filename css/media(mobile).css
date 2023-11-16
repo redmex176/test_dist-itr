@@ -1,0 +1,560 @@
+@media (max-width: 760px) {
+    .header__container {
+        width: 270px;
+    }
+    .header {
+        height: 1060px;
+    }
+    .img__header-mobile{
+        display: block;
+    }
+    .header__menu-modile {
+        display: block;
+    }
+    .logo__mobile img{
+        display: none;
+    }
+    .header__buttons {
+        display: none;
+    }
+    .header__menu-icon {
+        padding-top: 5px;
+    }
+    .header__logo {
+        height: auto;
+        width: auto;
+    }
+    .discr__title-tablet {
+        width: 238px;
+        height: 118px;
+    }
+    .discr__title-tablet p {
+        color: #FFF;
+        text-align: center;
+        font-family: Blogger Sans bold;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 111.111% */
+    }
+    .header__menu-modile {
+        width: 270px;
+        height: 50px;
+        margin: 0 auto;
+        margin-top: 252px;
+    }
+    .btn__phone-auth {
+
+        font-size: 17px;
+
+    }
+    
+    .btn__phone-auth, .btn__phone-mail, .btn__phone-mobile  {
+        height: 40px;
+        display: block;
+    }
+    .btn__mail, .btn__phone{
+        width: 40px;
+    }
+    .header__buttons-mobile {
+        display: block;
+        position: relative;
+        display: flex;
+        width: 270px;
+        height: 40px;
+        margin: 0 auto;
+    }
+    .header__buttons-mobile::after {
+        z-index: -1;
+        content: "";
+        display: block;
+        position: absolute;
+        width: 192px;
+        height: 255px;
+        top: -230px;
+        left: 62px;
+        background-image: url("../img/Mobile/header/traveller-illustration-mobile\ 1.png");
+        background-repeat: no-repeat;
+    }
+    .discr__title-tablet p::after {
+        z-index: -1;
+        content: "";
+        display: block;
+        position: absolute;
+        width: 320px;
+        height: 475px;
+        top: -85px;
+        left: -40px;
+        background-image: url("..//img/Mobile/header/globe-back-mobile\ 1.png");
+        background-repeat: no-repeat;
+    }
+    .discr__title-tablet {
+        position: relative;
+    }
+    .header__inst-tablet {
+        display: none;
+    }
+    .header__tablet {
+        background-color: #161C35;
+        height: 1490px;
+    }
+    .header__disc-mobile {
+        display: block;
+
+    }
+    .header__disc-tablet {
+        margin: 0 auto;
+        margin-top: 23px;
+        width: 270px;
+    }
+    .header__disc-tablet::after {
+        content: none;
+        background-image: url("");
+    }
+    .discr__text-tablet {
+        margin-top: 0px;
+    }
+    .discr__text-tablet p, .discr__auth-tablet p{
+        font-size: 16px;
+        line-height: 22px; /* 137.5% */
+    }
+    .discr__text-tablet p {
+        width: 151px;
+        height: 44px;
+    }
+    .discr__auth-tablet {
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 150px;
+    }
+    .discr__text-tablet, .discr__auth-tablet {
+        margin-left: 25px;
+    }
+    .header__inst-mobile {
+        display: block;
+        width: 320px;
+        height: 320px;
+        margin: 0 auto;
+    }
+    .inst__wrapp-mobile {
+        margin: 0 auto;
+        width: 270px;
+        height: 320px;
+        position: relative;
+
+    }
+    .inst__item-mobile {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .inst__item-mobile p:nth-child(1) {
+        width: 150px;
+        height: 42px;
+        color: #161C35;
+        font-family: Blogger Sans bold;
+        font-size: 18px;
+        line-height: 18px; /* 100% */
+    }
+    .inst__item-mobile p:nth-child(2) {
+        color: #FFF;
+        font-family: Blogger Sans bold;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px; /* 100% */
+    }
+    .inst__item-mobile {
+        width: 270px;
+        height: 80px;
+        position: absolute;
+        padding: 22px 21px 20px 25px;
+    }
+    .inst__item-mobile:nth-child(1) {
+        background-color: #FF8D30;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .inst__item-mobile:nth-child(2) {
+        height: 100px;
+        margin-top: 75px;
+        background-color: #FFA530;
+        border-radius: 10px;
+    }
+    .inst__item-mobile:nth-child(3) {
+        margin-top: 150px;
+        height: 120px;
+        background-color: #FF8D30;
+        border-radius: 10px;
+    }
+    .inst__item-mobile:nth-child(4) {
+        margin-top: 240px;
+        background-color: #FFD74B;
+        border-radius: 10px;
+    }
+    .img__tablet-tablet, .about__button  {
+        display: none;
+    }
+    .about {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .about__title p {
+        font-size: 24px;
+        line-height: 24px; /* 100% */
+    }
+    .about__discr {
+        width: 211px;
+        height: 109px;
+    }
+    .about__text {
+        width: 202px;
+        height: 66px;
+    }
+    .about__discr p {
+        font-size: 16px;
+        line-height: 22px; /* 137.5% */
+    }
+
+    .about__text p{
+        font-size: 16px;
+        line-height: 22px; /* 137.5% */
+    }
+    .about__wrapp-tablet {
+        width: auto;
+    }
+    .about__discr::after {
+        z-index: -1;
+        content: "";
+        display: block;
+        position: absolute;
+        width: 292px;
+        height: 352px;
+        top: -70px;
+        left: -27px;
+        background-image: url("..//img/Mobile/about/about-mobile.png");
+        background-repeat: no-repeat;
+        background-color: static;
+    }
+    .direction__contaner-tablet {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .direction__title-wrapp {
+        padding-top: 140px;
+    }
+    .title__item-one p{
+        font-size: 24px;
+        line-height: 24px; /* 100% */
+    }
+    .title__item-two {
+        width: 200px;
+        height: 110px;
+        margin-top: 19px;
+    }
+    .title__item-two p {
+        font-size: 16px;
+        line-height: 22px; /* 137.5% */
+    }
+    .direction__title {
+        width: 216px;
+    }
+    .direction__title-wrapp::after {
+        content: none;
+    }
+    .direction__coutry {
+        display: none;
+    }
+    .diraction__wrapp-mobile {
+        margin-top: 60px;
+        width: 320px;
+        height: 600px;
+    }
+    .direction__content-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 270px;
+        height: 600px;
+    }
+    .country__item {
+        position: relative;
+        height: 188px;
+        width: 270px;
+    }
+    .country__title {
+        padding: 26px 24px 24px 25px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 95px;
+        border-radius: 10px;
+        width: 270px;
+        height: 89px;
+        background-color: #fff;
+    }
+    .country__user {
+        margin-top: 0px;
+        align-items: start;
+    }
+    .country__text p:nth-child(1){
+        color: #000;
+        font-family: Blogger Sans bold;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px; /* 100% */
+    }
+    .country__text p:nth-child(2){
+        margin-top: 5px;
+        color: #444;
+        font-family: Blogger Sans medium;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        opacity: 0.3;
+        line-height: 18px; /* 112.5% */
+    }
+
+    .country__user p {
+        margin-top: -1px;
+        color: #161C35;
+        font-family: Blogger Sans medium;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 125% */
+        opacity: 0.3;
+    }
+
+    .country__geo {
+        margin: 0;
+        bottom: 77px;
+    }
+    .direction__button-tablet {
+        width: 320px;
+        height: 62px;
+        margin: 0 auto;
+    }
+    .button {
+        margin: 0 auto;
+        margin-left: 25px;
+        margin-top: 25px;
+        background-color: #FFD74B;
+        border-radius: 10px;
+        width: 270px;
+        height: 62px;
+        color: #1D2E5B;
+        font-family: Blogger Sans;
+        font-size: 24px;
+        font-style: normal;
+        line-height: 24px;
+    }
+    .button-tablet p {
+        font-family: Blogger Sans bold;
+        margin-left: 5px;
+    }
+    .diraction__wrapp-mobile {
+        display: block;
+        
+    }
+    .button p {
+        font-size: 18px;
+        line-height: 18px; /* 100% */
+        margin-left: -120px;
+    }
+    .direction__wrapp {
+        height: 1065px;
+    }
+    .diraction__tablet {
+        height: 1071px;
+    }
+  
+    .travalers__wrapp-tablet {
+        padding-top: 70px;
+        width: 320px;
+        margin: 0 auto;
+    }
+    .travelers__title {
+        margin: 0 auto;
+        width: 230px;
+        height: 400px;  
+    }
+
+    .travelers__item-one p{
+        font-size: 24px;
+        line-height: 24px; /* 100% */  
+    }
+    .travelers__item-two p {
+        width: 217px;
+        height: 106px;
+        margin-top: 0;
+        font-size: 16px;
+        line-height: 22px; /* 137.5% */
+    }
+    .travelers__item-two {
+        margin-top: 19px;
+    }
+
+    .travelers__item-free {
+        font-size: 16px;
+        line-height: 22px; /* 137.5% */ 
+    }
+    .travelers__title::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -30px;
+        left: -50px;
+        z-index: -1;
+        width: 113px;
+        height: 132px;
+        background-color: #141b3b;
+        border-radius: 20px;
+    }
+    .travelers__item-one::before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: 265px;
+        left: -40px;
+        width: 64px;
+        height: 71px;
+        background-repeat: no-repeat;
+        background-image: url('/img/Mobile/travelers/rogovaya-back-desktop.svg');
+        border-radius: 0px;
+    }
+    .travelers__item-one::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -30px;
+        left: 145px;
+        z-index: -1;
+        width: 130px;
+        height: 143px;
+        background-image: url('/img/Mobile/travelers/smolov-back-desktop.svg');
+        border-radius: 20px;
+    }
+    .travelers__wrapp {
+        height: 1538px;
+    }
+    .travalers__card-wrapp-tablet {
+        display: block;
+        margin: 0 auto;
+        width: 320px;
+        margin-top: 65px;
+    }
+    .travalers__card-tablet {
+
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .travelers__cards {
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        justify-content: space-between;
+        width: 320px;
+        height: 1000px;
+    }
+    .traveler__tablet {
+        height: 1535px;
+    }
+   
+    .card__item {
+        margin-left: -27px;
+        border-radius: 10px;
+    }
+    .card__item:nth-child(2) {
+        margin-top: 10px;
+    }
+
+    .travelers__button-text {
+        width: 280px;
+    }
+    .travelers__button-tablet {
+        margin: 0 auto;
+        width: 270px;
+        margin-left: -50px;
+        margin-top: -20px;
+    }
+
+    .button-tablet p::after {
+        position: absolute;
+        content: "";
+        width: 14px;
+        height: 13.413px;
+        top: 50px;
+        left: 250px;
+        background-image: url(..//img/Desktop/Polygon\ 1.svg);
+        background-repeat: no-repeat;
+    }
+    
+    .travelers__button-text p::after {
+        position: absolute;
+        content: "";
+        width: 14px;
+        height: 13.413px;
+        top: 25px;
+        left: 250px;
+    }
+
+    .tariff__wrapper {
+        width: 270px;
+    }
+    .tariff__title {
+        width: 107px;
+        height: 72px;
+        margin-left: 20px;
+    }
+    .tariff__title p {
+        font-size: 24px;
+        line-height: 24px; /* 100% */
+    }
+    .tariff__title::after {
+        position: absolute;
+        top: -10px;
+        left: 150px;
+        z-index: 0;
+        content: "";
+        background-image: url(..//img/Tablet/interest/rates.png);
+        width: 100px;
+        height: 100px;
+    } 
+    .price__wrapp {
+        width: 270px;
+        margin-left: 0px;
+        margin-top: 0;
+    }
+    .price__item {
+        display: block;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+    
+    .price__item p{
+        font-size: 16px;
+        line-height: 16px; /* 100% */
+    }
+    .price__item::before {
+        position: absolute;
+        padding: 20px 22px 22px 24px;
+        right: 630px;
+        width: 34px;
+        height: 34px;
+        padding: 10px;
+        font-size: 16px;
+        line-height: 28px;
+        border-radius: 50%;
+        font-family: "Blogger Sans","Arial",sans-serif;
+        text-align: center;
+        color: #fff;
+    }
+}

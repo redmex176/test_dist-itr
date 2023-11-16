@@ -103,6 +103,18 @@ body {
 .header__disc-tablet {
     display: none;
 }
+.img__header-mobile{
+    display: none;
+}
+.diraction__wrapp-mobile {
+    display: none;
+}
+.header__disc-mobile {
+    display: none;
+}
+.header__menu-modile, .header__inst-mobile {
+    display: none;
+}
 .header {
     height: 729px;
     margin-top: 46px;
@@ -1114,6 +1126,11 @@ line-height: 24px; /* 114.286% */
     line-height: 31px;
     text-decoration-line: underline;
 }
+
+.interest__discr a:hover {
+    color: #FF8D30;
+}
+
 .interest__form {
     display: flex;
     justify-content: space-between;
@@ -1347,6 +1364,9 @@ line-height: 24px; /* 114.286% */
     margin-left: 369px;
 
 }
+.social__icon:hover {
+    background-color: #ffb514;
+}
 .icon__item {
     display: flex;
     align-items: center;
@@ -1380,3 +1400,13 @@ line-height: 24px; /* 114.286% */
     height: 62px;
     background-color: #FFD74B;
 }
+
+.active {
+    display: block;
+}
+.modal__header-tablet {
+    position: absolute;
+    top: 0;
+}
+
+

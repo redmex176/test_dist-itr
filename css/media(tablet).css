@@ -542,12 +542,12 @@
     width: 768px;   
 }
 .price__item{
-    width: 635px;
+    width: 615px;
 }
 .price__item::before {
     position: absolute;
     padding: 20px 22px 22px 24px;
-    right: 655px;
+    right: 630px;
     width: 68px;
     height: 68px;
     padding: 10px;
@@ -561,7 +561,7 @@
 .price__wrapp::after {
     content: "";
     top: -36px;
-    left: 475px;
+    left: 455px;
     z-index: -1;
     position: absolute;
     width: 198px;
@@ -573,7 +573,7 @@
 .tariff__title::after {
     position: absolute;
     top: 390px;
-    left: 620px;
+    left: 600px;
     z-index: 0;
     content: "";
     background-image: url(..//img/Tablet/interest/rates.png);
@@ -581,7 +581,9 @@
     width: 100px;
     height: 100px;
 }
-
+.tariff__show {
+    margin-left: 15px;
+}
 .interest__bgc {
     display: none;
 }
