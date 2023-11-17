@@ -1,6 +1,6 @@
 @media (max-width: 760px) {
     .header__container {
-        width: 270px;
+        width: 100%;
     }
     body {
         overflow-x: hidden;
@@ -99,8 +99,15 @@
     }
     .header__tablet {
         background-color: #161C35;
-        height: 1290px;
+        height: 1460px;
     }
+    .main__descr-tablet {
+        margin: 0 auto;
+        display: flex;
+        
+
+    }
+    
     .header__disc-mobile {
         display: block;
 
@@ -224,6 +231,7 @@
         line-height: 22px; /* 137.5% */
     }
     .about__wrapp-tablet {
+        margin-top: 225px;
         width: auto;
     }
     .about__discr::after {
@@ -808,5 +816,8 @@
     .profile__modale {
         width: 270px;
     }
+
+   
+   
    
 }

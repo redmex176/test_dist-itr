@@ -217,6 +217,10 @@ body {
     background-size: cover;
 }
 
+.img__header-tablet {
+    display: none;
+}
+
 .btn__auth{
     background-size: cover;
     width: 188px;
@@ -231,6 +235,9 @@ body {
 }
 .btn__auth:active {
     background-color: #F26926;
+}
+.main__descr-tablet {
+    display: none;
 }
 .main__descr {
     max-width: 1230px;
