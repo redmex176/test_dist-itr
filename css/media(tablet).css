@@ -781,4 +781,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.modal__header-tablet {
+    width: 688px;
+    margin: 0 auto;
+   }
 }
