@@ -57,13 +57,10 @@ body {
 } 
 
 .wrapp {
-
     min-height: 100%;
     max-width: 1440px;
     margin: 0 auto;
-  
 }
-
 
 .img__header-logo-fix {
     display: none;
@@ -88,6 +85,10 @@ body {
 .direction__contaner-tablet {
     display: none;
 }
+.header__mobile {
+    display: none;
+}
+
 .header__menu-icon {
     display: none;
 }
@@ -107,6 +108,9 @@ body {
     display: none;
 }
 .diraction__wrapp-mobile {
+    display: none;
+}
+.footer__logo svg{
     display: none;
 }
 .header__disc-mobile {
@@ -1404,9 +1408,105 @@ line-height: 24px; /* 114.286% */
 .active {
     display: block;
 }
-.modal__header-tablet {
+
+
+
+.profile__modale {
     position: absolute;
-    top: 0;
-}
+    height: 526px;
+    max-width: 750px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 2;
+    top: -133px;
+    left: 25%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .profile__modale-title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 141, 48, 1);
+    margin: 0 auto;
+    margin-top: 54px;
+  }
+  
+  .profile__modale__list {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+  
+  .profile__modale__list-item > span {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(68, 68, 68, 1);
+  }
+  
+  .profile__modale__list-item > b {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(68, 68, 68, 1);
+  }
+  
+  .profile__modale__list-item > span::before {
+    content: '';
+    position: absolute;
+    width: 86%;
+    height: 1px;
+    border: 1px solid rgba(225, 227, 233, 1);
+    display: block;
+    margin: -13px;
+  }
+  
+  .profile__modale__list-line {
+    content: '';
+    position: absolute;
+    width: 86%;
+    height: 1px;
+    border: 1px solid rgba(225, 227, 233, 1);
+    display: block;
+    left: 0;
+    margin: 45px;
+  }
+  
+  .profile__modale__list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px 0;
+  }
+  
+  .profile__modale__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(243, 244, 248, 1);
+    height: 108px;
+    max-width: 750px;
+    border-radius: 0 0 30px 30px;
+  }
+  
+  .profile__modale__bottom-close {
+    font-family: Blogger Sans bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(29, 46, 91, 1);
+    border: none;
+  }
 
 

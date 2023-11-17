@@ -4,6 +4,7 @@
         margin: 0px auto;
     }
 
+    
     .header__fixed {
         margin-top: -46px;
     }
@@ -208,6 +209,7 @@
         background-image: url("..//img/Tablet/globe\ back\ tablet.jpg.jpg");
         
     }
+
     .inst__wrapp {
         display: flex;
         height: 140px;
@@ -760,5 +762,23 @@
 }
 .footer__made {
     margin: 0;
+}
+.profile__modale {
+    width: 688px;
+
+}
+.profile__modale {
+    position: absolute;
+    height: 526px;
+    max-width: 750px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 2;
+    top: 0px;
+    left: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 }
