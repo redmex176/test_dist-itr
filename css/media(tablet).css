@@ -211,7 +211,14 @@
         background-image: url("..//img/Tablet/globe\ back\ tablet.jpg.jpg");
         
     }
-
+   
+    .btn__header-modal:hover {
+        background-color: rgb(255, 179, 0);
+        
+    }
+    .btn__header-modal:active {
+        background-color: rgb(255, 207, 75);
+    }
     .inst__wrapp {
         display: flex;
         height: 140px;
